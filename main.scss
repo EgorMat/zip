@@ -10,6 +10,19 @@ $red: #f44236;
 }
 
 
+.TVInterfaceWrapper {
+  overflow: visible;
+}
+
+.TVInterfaceWrapper .TVSearchButton {
+  border-radius: 30px;
+}
+
+.TVMainFilter {
+  overflow: visible;
+}
+
+
 .button {
   background: red;
   border-radius: 30px;
@@ -39,7 +52,7 @@ object-fit: cover;
 }
 
 .intro {
-  height: 50%;
+  height: 30%;
   color: white;
   width: 80%;
 position: absolute;
@@ -56,7 +69,7 @@ left: 10%;
     // font-family: 'Ubuntu Condensed', sans-serif;
   font-family: "wichita";
   font-weight: 600;
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .intro__text {
