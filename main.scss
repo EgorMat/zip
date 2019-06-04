@@ -1,0 +1,68 @@
+@import "header";
+
+$red: #f44236;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  // box-sizing: border-box;
+}
+
+
+.button {
+  background: red;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.scroll-item {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  // background: blue;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+object-fit: cover;
+}
+
+.intro {
+  height: 50%;
+  color: white;
+  // width: 60%;
+position: absolute;
+top: calc(25% + 100px);
+left: 10%;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: space-between;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.intro__title {
+    // font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: "wichita";
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.intro__text {
+  font-size: 20px;
+}
+
+.intro__button{
+  // align-self: flex-end;
+}

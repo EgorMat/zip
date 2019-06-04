@@ -1,0 +1,99 @@
+header {
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  height: 200px;
+  width: 80%;
+  top: 0;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+header .nav {
+  width: 33%;
+}
+header .nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 20px;
+}
+header .nav .nav__item {
+  padding-bottom: 3px;
+}
+header.white {
+  background: white;
+  color: black;
+  height: 15vh;
+  border-bottom: 1px solid black;
+}
+header .logo {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+header .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  background: red;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.scroll-item {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro {
+  height: 50%;
+  color: white;
+  position: absolute;
+  top: calc(25% + 100px);
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.intro__title {
+  font-family: "wichita";
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.intro__text {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
