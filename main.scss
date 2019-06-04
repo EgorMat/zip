@@ -41,13 +41,13 @@ object-fit: cover;
 .intro {
   height: 50%;
   color: white;
-  // width: 60%;
+  width: 80%;
 position: absolute;
 top: calc(25% + 100px);
 left: 10%;
   display: flex;
   flex-direction: column;
-  // align-items: center;
+  align-items: center;
   justify-content: space-between;
   font-family: 'Ubuntu Condensed', sans-serif;
 }
