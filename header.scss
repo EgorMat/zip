@@ -37,7 +37,7 @@ header {
   &.white {
     background: white;
     color: black;
-    height: 15vh;
+    height: 100px;
     border-bottom: 1px solid black;
   }
 
@@ -48,6 +48,7 @@ header {
       overflow: hidden;
       background: url('../assets/logo1.png');
       background-size: cover;
+      transition: .3s ease-in-out;
 
       img {
         width: 100%;
@@ -57,6 +58,8 @@ header {
 }
 
 
-.white logo{
-
+.white .logo{
+  height: 90px;
+  width: 90px;
+     background: url('../assets/logo.png');
 }
