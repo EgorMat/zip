@@ -24,6 +24,7 @@ $red: #f44236;
 
 
 .button {
+ font-size: 16px;
   background: $red;
   border-radius: 30px;
   width: 150px;
@@ -70,7 +71,7 @@ left: 10%;
 .intro__title {
     // font-family: 'Ubuntu Condensed', sans-serif;
   font-family: "wichita";
-  font-weight: 600;
+  font-weight: 400;
   font-size: 60px;
 }
 
@@ -84,9 +85,17 @@ left: 10%;
 
 
 .second {
+  padding-top: 200px;
    padding-left: 10%;
    width: 80%;
    display: flex;
    flex-direction: column;
    align-items: center;
+}
+
+
+.section-title {
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 600px;
 }
