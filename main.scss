@@ -97,13 +97,18 @@ left: 10%;
    display: flex;
    flex-direction: column;
    align-items: center;
+   background: url('..assets/fall.jpg');
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
    .section__content {
      height: 70%;
      overflow: hidden;
      display: flex;
      flex-direction: column;
-     align-items: center; 
+     align-items: center;
    }
 }
 
