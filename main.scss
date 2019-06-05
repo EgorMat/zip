@@ -101,6 +101,9 @@ left: 10%;
    .section__content {
      height: 70%;
      overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     align-items: center; 
    }
 }
 
