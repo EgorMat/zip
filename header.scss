@@ -47,7 +47,7 @@ header {
       width: 120px;
       height: 120px;
       overflow: hidden;
-      background: url('../assets/logo1.png');
+      background: url('../assets/logo.png');
       background-size: cover;
       transition: .3s ease-in-out;
 
@@ -59,7 +59,7 @@ header {
 }
 
 
-.white .logo{
+.white>.logo{
   height: 90px;
   width: 90px;
   background: url('../assets/logo.png');
