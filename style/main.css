@@ -12,7 +12,7 @@ header {
   transition: 0.3s ease-in-out;
 }
 header .nav {
-  width: 33%;
+  width: 40%;
 }
 header .nav ul {
   display: flex;
@@ -36,6 +36,8 @@ header .logo {
   width: 120px;
   height: 120px;
   overflow: hidden;
+  background: url("assets/logo1.png");
+  background-size: cover;
 }
 header .logo img {
   width: 100%;
@@ -62,14 +64,15 @@ header .logo img {
 .button {
   background: #f44236;
   border-radius: 30px;
-  width: 200px;
-  height: 50px;
+  width: 150px;
+  height: 40px;
   padding: 0;
   border: none;
   color: white;
   text-transform: uppercase;
   font-family: "Ubuntu Condensed", sans-serif;
-  line-height: 50px;
+  line-height: 40px;
+  text-align: center;
 }
 
 .scroll-item {
