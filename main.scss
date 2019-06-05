@@ -11,7 +11,7 @@ $red: #f44236;
 
 
 .TVInterfaceWrapper {
-  overflow: visible;
+  overflow: visible !important;
 }
 
 .TVInterfaceWrapper .TVSearchButton {
@@ -19,12 +19,12 @@ $red: #f44236;
 }
 
 .TVMainFilter {
-  overflow: visible;
+  overflow: visible !important;
 }
 
 
 .button {
-  background: red;
+  background: $red;
   border-radius: 30px;
   width: 200px;
   height: 50px;
@@ -33,6 +33,7 @@ $red: #f44236;
   color: white;
   text-transform: uppercase;
   font-family: 'Ubuntu Condensed', sans-serif;
+  line-height: 50px;
 }
 
 .scroll-item {
