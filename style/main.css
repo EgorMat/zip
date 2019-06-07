@@ -132,11 +132,11 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
 .second .section__content {
   width: 90%;
-  height: 50%;
+  margin-top: 10%;
+  height: 60%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -145,7 +145,7 @@ video {
 }
 
 .section__title {
-  font-family: Roboto, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 24px;
   font-weight: 600px;
   margin-top: 150px;
