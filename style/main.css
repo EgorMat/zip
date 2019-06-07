@@ -132,13 +132,19 @@ video {
   width: 100%;
 }
 .second .section__content {
+  height: 60%;
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr auto;
-  grid-template-rows: 1fr auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-gap: 15px;
 }
 .second .destination {
   background: red;
+}
+.second .destination:first-of-type {
+  grid-column: 1/2;
+  grid-row: 1/3;
 }
 
 .third {

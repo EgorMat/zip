@@ -99,14 +99,20 @@ left: 10%;
     width: 100%;
 
   .section__content {
+    height: 60%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 15px;
   }
 
   .destination {
     background: red;
+  }
+  .destination:first-of-type{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3 ;
   }
 }
 
