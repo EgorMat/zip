@@ -27,8 +27,7 @@ header.white {
   background: white;
   color: black;
   height: 100px;
-  border-bottom: 1px solid black;
-  background: rgba(255, 255, 255, 0.8);
+  background: white;
 }
 header .logo {
   width: 125px;
