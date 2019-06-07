@@ -12,7 +12,7 @@ header {
   transition: 0.3s ease-in-out;
 }
 header .nav {
-  width: 40%;
+  width: 50%;
 }
 header .nav ul {
   display: flex;

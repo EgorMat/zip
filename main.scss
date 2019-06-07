@@ -75,11 +75,11 @@ left: 10%;
 }
 
 .intro__title {
-    // font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
   // font-family: "wichita";
-  font-family: "Merriweather";
+  // font-family: "Merriweather";
   font-weight: 400;
-  font-size: 75px;
+  font-size: 50px;
 }
 
 .intro__text {
@@ -96,16 +96,19 @@ left: 10%;
    display: flex;
    flex-direction: column;
    align-items: center;
+   justify-content: space-between;
    // background: url('../assets/fall.jpg');
 //    filter: grayscale(23%) blur(2px) opacity(1) brightness(81%) contrast(100%);
 // -webkit-filter: grayscale(23%) blur(2px) opacity(1) brightness(81%) contrast(100%);
 
    .section__content {
      width: 90%;
+     height: 50%;
      overflow: hidden;
      display: flex;
      flex-direction: column;
      align-items: center;
+     justify-content: space-between;
    }
 
   //  &:before{
