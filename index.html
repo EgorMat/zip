@@ -6,9 +6,11 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Ubuntu+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="style/fonts.css">
+  <link rel="stylesheet" type="text/css" href="wow-animation/animate.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <meta charset="utf-8">
+  <script src="wow-animation/wow.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.js"></script>
   <script src="js/scrollify-mainpage.js"></script>
   <!-- <script src="js/header.js"></script> -->
@@ -18,6 +20,9 @@
 </head>
 
 
+<script>
+    new WOW().init();
+</script>
 
 <body>
   <header>
@@ -45,7 +50,7 @@
       <div class="intro__title">Куда вы хотите полететь?</div>
       <!-- <div class="intro__text">Заходите к нам на сайт и получите удовольстиве от путешествия.</div>
       <button class="intro__button button">Смотреть туры</button> -->
-      <div class="tv-search-form tv-moduleid-190071"></div>
+      <div class="tv-search-form tv-moduleid-190071 wow fadeInDown" ></div>
 <script type="text/javascript" src="//tourvisor.ru/module/init.js"></script>
     </div>
 
