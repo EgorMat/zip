@@ -34,7 +34,7 @@ $green: #29BF12;
   border: none;
   color: white;
   text-transform: uppercase;
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 40px;
   text-align: center;
   transition: .3s ease-in-out;
@@ -97,7 +97,7 @@ left: 10%;
    flex-direction: column;
    align-items: center;
    // justify-content: space-between;
-   // background: url('../assets/fall.jpg');
+   background: #D3D3D3;
 //    filter: grayscale(23%) blur(2px) opacity(1) brightness(81%) contrast(100%);
 // -webkit-filter: grayscale(23%) blur(2px) opacity(1) brightness(81%) contrast(100%);
 
@@ -124,8 +124,8 @@ left: 10%;
 
 
 .section__title {
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
-  font-weight: 600px;
+  font-weight: 700;
   margin-top: 150px;
 }

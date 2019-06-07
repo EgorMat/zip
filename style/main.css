@@ -20,7 +20,7 @@ header .nav ul {
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  font-family: "Ubuntu Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
 }
 header .nav .nav__item {
@@ -79,7 +79,7 @@ header .logo img {
   border: none;
   color: white;
   text-transform: uppercase;
-  font-family: "Ubuntu Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 40px;
   text-align: center;
   transition: 0.3s ease-in-out;
@@ -132,6 +132,7 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #D3D3D3;
 }
 .second .section__content {
   width: 90%;
@@ -145,9 +146,9 @@ video {
 }
 
 .section__title {
-  font-family: "Ubuntu Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 40px;
-  font-weight: 600px;
+  font-weight: 700;
   margin-top: 150px;
 }
 
