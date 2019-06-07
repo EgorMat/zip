@@ -16,7 +16,7 @@ $green: #29BF12;
 }
 
 .TVInterfaceWrapper .TVSearchButton {
-  border-radius: 30px;
+  // border-radius: 30px;
 }
 
 .TVMainFilter {
@@ -31,13 +31,13 @@ $green: #29BF12;
 .button {
  font-size: 16px;
   background: $red;
-  border-radius: 30px;
+  // border-radius: 30px;
   width: 150px;
   height: 40px;
   padding: 0;
   border: none;
   color: white;
-  text-transform: uppercase;
+  // text-transform: uppercase;.
   font-family: 'Open Sans', sans-serif;
   line-height: 40px;
   text-align: center;
@@ -100,12 +100,12 @@ left: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 
 
   .section__content {
     height: 60%;
     width: 90%;
-    margin-top: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -113,7 +113,12 @@ left: 10%;
   }
 
   .destination {
-    background: red;
+    background: url('..assets/dubai.jpg');
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 24px;
   }
   .destination:first-of-type{
     grid-column: 1 / 2;
@@ -121,19 +126,20 @@ left: 10%;
   }
 }
 
+
+
 .third {
    width: 100%;
    display: flex;
    flex-direction: column;
    align-items: center;
-   // justify-content: space-between;
-   background: #D3D3D3;
+   justify-content: space-around;
+   // background: #D3D3D3;
 //    filter: grayscale(23%) blur(2px) opacity(1) brightness(81%) contrast(100%);
 // -webkit-filter: grayscale(23%) blur(2px) opacity(1) brightness(81%) contrast(100%);
 
    .section__content {
      width: 90%;
-     margin-top: 5%;
      height: 60%;
      overflow: hidden;
      display: flex;
