@@ -128,14 +128,24 @@ video {
   font-size: 20px;
 }
 
-.second {
+.second .section__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  grid-template-rows: 1fr auto;
+  grid-gap: 15px;
+}
+.second .destination {
+  background: red;
+}
+
+.third {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: #D3D3D3;
 }
-.second .section__content {
+.third .section__content {
   width: 90%;
   margin-top: 5%;
   height: 60%;
