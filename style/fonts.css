@@ -2,3 +2,14 @@
     font-family: "wichita";
     src: url('../fonts/Wichita.otf');
 }
+
+@font-face {
+    font-family: "Garamond";
+     src:  url('http://allfont.ru/allfont.css?fonts=garamond');
+}
+
+
+@font-face {
+    font-family: "Helvetica";
+    src: url('../fonts/Helvetica.otf');
+}
