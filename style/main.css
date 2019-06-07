@@ -42,7 +42,7 @@ header .logo img {
 }
 
 .white > .logo {
-  height: 90px;
+  height: 92px;
   width: 95px;
   background: url("../assets/logo.png");
   background-size: cover;
