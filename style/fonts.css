@@ -13,3 +13,8 @@
     font-family: "Helvetica";
     src: url('../fonts/Helvetica.otf');
 }
+
+@font-face {
+    font-family: "Merriweather";
+    src: url('../fonts/Merriweather-UltraBold.ttf');
+}
