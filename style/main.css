@@ -128,6 +128,9 @@ video {
   font-size: 20px;
 }
 
+.second {
+  width: 100%;
+}
 .second .section__content {
   display: grid;
   grid-template-columns: 1fr 1fr auto;
