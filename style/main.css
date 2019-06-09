@@ -165,7 +165,7 @@ video {
   align-items: center;
 }
 .second .section__content {
-  height: calc(100% - 150px);
+  height: calc(100% - 250px);
   width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
