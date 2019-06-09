@@ -67,14 +67,17 @@ body {
 
 .TVInterfaceWrapper {
   overflow: visible !important;
+  font-family: "GT EEsti", sans-serif;
 }
 
 .TVInterfaceWrapper .TVSearchButton {
   font-weight: 400 !important;
+  font-family: "GT EEsti", sans-serif;
 }
 
 .TVMainFilterButton {
   font-weight: 400 !important;
+  font-family: "GT EEsti", sans-serif;
 }
 
 .TVMainFilter {

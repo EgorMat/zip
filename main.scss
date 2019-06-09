@@ -7,7 +7,7 @@ $green: #29BF12;
 body {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
 
@@ -21,17 +21,19 @@ body {
 
 .TVInterfaceWrapper {
   overflow: visible !important;
+    font-family: "GT EEsti", sans-serif;
 }
 
 .TVInterfaceWrapper .TVSearchButton {
   font-weight: 400 !important;
-
+    font-family: "GT EEsti", sans-serif;
   // border-radius: 30px;
 }
 
 
 .TVMainFilterButton {
   font-weight: 400 !important;
+    font-family: "GT EEsti", sans-serif;
 }
 .TVMainFilter {
   overflow: visible !important;
