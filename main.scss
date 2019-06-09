@@ -107,7 +107,7 @@ left: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    // justify-content: space-around;
     padding-top: 100px;
 
 
@@ -140,6 +140,8 @@ left: 10%;
 
 .third {
   min-height: 100vh;
+  background: url('../assets/bg.png');
+  background-size: cover;
    width: 100%;
    display: flex;
    flex-direction: column;
@@ -178,7 +180,5 @@ left: 10%;
 
 .fourth {
   min-height: 100vh;
-  background: url('../assets/bg.png');
-  background-size: cover;
 
 }
