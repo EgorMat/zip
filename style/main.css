@@ -221,6 +221,10 @@ video {
   align-items: center;
   justify-content: space-around;
 }
+.third .button {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
 
 .section__title {
   display: flex;
