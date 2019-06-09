@@ -169,7 +169,6 @@ video {
   grid-gap: 15px;
 }
 .second .destination {
-  background: url("../assets/dubai.jpg");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -179,8 +178,15 @@ video {
   font-size: 24px;
 }
 .second .destination:first-of-type {
+  background: url("../assets/dubai.jpg");
   grid-column: 1/2;
   grid-row: 1/3;
+}
+.second .destination:nth-of-type(2) {
+  background: url("../assets/thailand.jpg");
+}
+.second .destination:nth-of-type(3) {
+  background: url("../assets/fall.jpg");
 }
 
 .third {
