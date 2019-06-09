@@ -18,3 +18,8 @@
     font-family: "Merriweather";
     src: url('../fonts/Merriweather-UltraBold.ttf');
 }
+
+@font-face {
+  font-family: "GT Eesti";
+  src: url('../fonts/GT Eesti.otf');
+}

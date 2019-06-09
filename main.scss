@@ -129,6 +129,7 @@ left: 10%;
     color: white;
     font-family: "Open Sans";
     font-size: 24px;
+
   }
   .destination:first-of-type{
     grid-column: 1 / 2;
@@ -140,8 +141,6 @@ left: 10%;
 
 .third {
   min-height: 100vh;
-  background: url('../assets/bg.png');
-  background-size: cover;
    width: 100%;
    display: flex;
    flex-direction: column;
@@ -179,6 +178,8 @@ left: 10%;
 }
 
 .fourth {
+  background: url('../assets/bg.png');
+  background-size: cover;
   min-height: 100vh;
 
 }
