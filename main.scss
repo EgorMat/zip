@@ -3,6 +3,14 @@
 $red: #f44236;
 $green: #29BF12;
 
+// 1ый вариант
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+
 
 *{
   margin: 0;
