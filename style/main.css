@@ -101,6 +101,7 @@ video {
   left: 0;
   width: 100%;
   object-fit: cover;
+  height: 100vh;
 }
 
 .first {
@@ -185,6 +186,12 @@ video {
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
   font-weight: 700;
+}
+
+.fourth {
+  min-height: 100vh;
+  background: url("../assets/bg.png");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=main.css.map */
