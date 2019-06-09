@@ -253,10 +253,13 @@ video {
 }
 .fifth .image {
   height: 90%;
+  width: 40%;
+  background: url("../assets/dubai.jpg");
 }
 .fifth .text {
   height: 50%;
   background: white;
+  border: 1px solid black;
   box-shadow: 0px 0px 2px 0px black;
 }
 
