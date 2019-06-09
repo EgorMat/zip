@@ -246,4 +246,18 @@ video {
   align-items: center;
 }
 
+.fifth {
+  height: 150vh;
+  display: flex;
+  align-items: center;
+}
+.fifth .image {
+  height: 90%;
+}
+.fifth .text {
+  height: 50%;
+  background: white;
+  box-shadow: 0px 0px 2px 0px black;
+}
+
 /*# sourceMappingURL=main.css.map */
