@@ -241,6 +241,9 @@ video {
   background-size: cover;
   min-height: 100vh;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
