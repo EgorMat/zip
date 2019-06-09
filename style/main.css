@@ -251,17 +251,17 @@ video {
   display: flex;
   margin-left: 10%;
   margin-right: 10%;
-  width: 90%;
+  width: 80%;
   align-items: center;
   justify-content: space-between;
 }
 .fifth .image {
   height: 90%;
-  width: 30%;
+  width: 40%;
   background: url("../assets/dubai.jpg");
 }
 .fifth .text {
-  width: 30%;
+  width: 40%;
   height: 50%;
   background: white;
   border: 1px solid black;
