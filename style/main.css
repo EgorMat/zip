@@ -249,14 +249,19 @@ video {
 .fifth {
   height: 150vh;
   display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 90%;
   align-items: center;
+  justify-content: space-between;
 }
 .fifth .image {
   height: 90%;
-  width: 40%;
+  width: 30%;
   background: url("../assets/dubai.jpg");
 }
 .fifth .text {
+  width: 30%;
   height: 50%;
   background: white;
   border: 1px solid black;
