@@ -194,12 +194,12 @@ video {
   background: url("../assets/fall.jpg");
   background-size: cover;
 }
-.second .destination:nth-of-type(4) {
-  background: url("../assets/egypt.jpg");
-  background-size: cover;
-}
 .second .destination:nth-of-type(5) {
   background: url("../assets/fall.jpg");
+  background-size: cover;
+}
+.second .destination:nth-of-type(4) {
+  background: url("../assets/egypt.jpg");
   background-size: cover;
 }
 
