@@ -148,7 +148,7 @@ video {
 }
 
 .intro__title {
-  font-family: "GT EEsti", sans-serif;
+  font-family: "wichita";
   font-weight: 500;
   font-size: 50px;
 }
@@ -210,7 +210,7 @@ video {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background: #e4e9ed;
+  background: url("../assets/bg.jpg");
 }
 .third .section__content {
   width: 80%;
@@ -239,6 +239,7 @@ video {
 .fourth {
   background: url("../assets/bg.png");
   background-size: cover;
+  width: 100%;
   min-height: 100vh;
   color: white;
   display: flex;
@@ -260,12 +261,24 @@ video {
   width: 40%;
   background: url("../assets/dubai.jpg");
 }
-.fifth .text {
+
+.visas-info {
   width: 40%;
   height: 50%;
   background: white;
   border: 1px solid black;
   box-shadow: 0px 0px 2px 0px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.info__title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "GT Eesti", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */
