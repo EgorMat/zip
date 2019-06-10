@@ -111,8 +111,8 @@ left: 10%;
 }
 
 .intro__title {
-      // font-family: "GT EEsti", sans-serif;
-  font-family: "wichita";
+      font-family: "GT EEsti", sans-serif;
+  // font-family: "wichita";
   // font-family: "Merriweather";
   font-weight: 500;
   font-size: 50px;
@@ -193,6 +193,7 @@ left: 10%;
    align-items: center;
    justify-content: space-around;
    background: url('../assets/bg.jpg');
+   background-size: cover;
    // background: rgba(228, 233, 237, 1b);
    // background: #D3D3D3;
 //    filter: grayscale(23%) blur(2px) opacity(1) brightness(81%) contrast(100%);
@@ -257,7 +258,7 @@ left: 10%;
   justify-content: space-between;
 
   .image {
-    height: 90%;
+    height: 75%;
     width: 40%;
     background: url('../assets/dubai.jpg')
   }
@@ -265,7 +266,7 @@ left: 10%;
 
   .visas-info {
     width: 40%;
-    height: 50%;
+    height: 30%;
     background: white;
     border: 1px solid black;
     box-shadow: 0px 0px 2px 0px black;
@@ -274,12 +275,16 @@ left: 10%;
     justify-content: space-around;
     padding-left: 30px;
     padding-top: 30px;
-    
+
   }
 
   .info__title{
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 700;
     font-family: "GT Eesti", sans-serif;
+  }
 
+  .info__text {
+    font-family: "GT Eesti", sans-serif;
+    font-size: 24px;
   }
