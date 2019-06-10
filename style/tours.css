@@ -67,7 +67,7 @@ main {
   width: 100%;
   background: url("../assets/dubai.jpg");
   background-size: cover;
-  height: 40vh;
+  height: 50vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -79,6 +79,7 @@ main {
 }
 
 .tours {
+  margin-top: 100px;
   width: 100%;
 }
 
