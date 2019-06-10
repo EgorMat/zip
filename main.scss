@@ -259,7 +259,7 @@ left: 10%;
 
   .image {
     height: 75%;
-    width: 40%;
+    width: 45%;
     background: url('../assets/dubai.jpg')
   }
 }
@@ -269,7 +269,7 @@ left: 10%;
     height: 30%;
     background: white;
     border: 1px solid black;
-    box-shadow: 0px 0px 2px 0px black;
+    box-shadow: 0px 0px 2px 0px $red;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
