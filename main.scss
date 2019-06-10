@@ -261,6 +261,7 @@ left: 10%;
     width: 40%;
     background: url('../assets/dubai.jpg')
   }
+}
 
   .visas-info {
     width: 40%;
@@ -273,11 +274,11 @@ left: 10%;
     justify-content: space-around;
     padding-left: 30px;
     padding-top: 30px;
-    font-family: "GT Eesti", sans-serif;
-
   }
+
   .info__title{
     font-size: 24px;
     font-weight: 700;
+    font-family: "GT Eesti", sans-serif;
+
   }
-}
